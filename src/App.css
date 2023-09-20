@@ -1,0 +1,77 @@
+nav {
+  background-color: white;
+  color: purple;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 450px;
+  position: fixed;
+  align-items: center;
+  width: 100%;
+  top: 0%;
+  border-color: purple;
+}
+button {
+  color: purple;
+  border-color: purple;
+  border-radius: 5px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 673px;
+}
+
+.wrapp {
+  position: absolute;
+  margin-bottom: 10px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 38px;
+  line-height: 32px;
+  text-align: center;
+}
+
+.wrapps {
+  position: absolute;
+  font-family: sans-serif;
+  border-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 16px;
+  font-size: 38px;
+  line-height: 32px;
+  text-align: center;
+  padding: 20px;
+  bottom: -100px;
+  margin: 50px;
+}
+
+.butt {
+  background: purple;
+  color: white;
+  border-color: none;
+}
+
+input[type="text"] {
+  width: 312px;
+  height: 56px;
+  background: #ffff;
+  border-radius: 8px;
+  padding: 50px;
+}
+
+/* input[type="text"]::placeholder {
+  color: #121212;
+  background-repeat: no-repeat;
+  padding-left: 24px;
+  background-size: 18px 18px;
+  font-weight: 400;
+} */
